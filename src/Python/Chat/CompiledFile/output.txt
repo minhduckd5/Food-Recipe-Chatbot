@@ -1,1 +1,0 @@
-(chat (line Alice :  Hello!) (line Bob :  Hi there!))
