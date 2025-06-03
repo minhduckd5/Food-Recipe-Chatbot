@@ -23,20 +23,20 @@ export default class HtmlChatListener extends ChatListener {
     exitEmoticon(ctx) {
         const emoticon = ctx.getText();
         if (emoticon === ':-)' || emoticon === ':)') {
-            this.Res.write("🙂");
+            ctx.text = "🙂";
         } else if (emoticon === ':-(' || emoticon === ':(') {
-            this.Res.write("🙁");
+            ctx.text = "🙁";
         } else {
-            this.Res.write(emoticon);
+            ctx.text = emoticon; // fallback
         }
     }
 
     enterCommand(ctx) {
-        if (ctx.SAYS() != null)
-            this.Res.write(ctx.SAYS().getText() + ':' + '<p>');
-
-        if (ctx.SHOUTS() != null)
-            this.Res.write(ctx.SHOUTS().getText() + ':' + '<p style="text-transform: uppercase">');
+        if (ctx.SAYS()) {
+            this.Res.write(ctx.SAYS().getText() + ': <p>');
+        } else if (ctx.SHOUTS()) {
+            this.Res.write(ctx.SHOUTS().getText() + ': <p style="text-transform: uppercase">');
+        }
     }
 
     exitLine(ctx) {
@@ -49,24 +49,21 @@ export default class HtmlChatListener extends ChatListener {
     }
 
     exitColor(ctx) {
-        ctx.text += ctx.message().text;
-        ctx.text += '</span>';
+        const color = ctx.WORD().getText();
+        this.Res.write('<span style="color: ' + color + '">');
+        this.Res.write(ctx.message().text);
+        this.Res.write('</span>');
     }
 
 
     exitMessage(ctx) {
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = dirname(__filename);
-
         let text = '';
-        console.log(ctx.children[0]);
-        
-
-        for (let index = 0; index < ctx.children.length; index++) {
-            if (ctx.children[index].text != null)
-                text += ctx.children[index].text;
-            else
-                text += ctx.children[index].getText();
+        for (let child of ctx.children) {
+            if (child.text != null) {
+                text += child.text;
+            } else {
+                text += child.getText();
+            }
         }
 
         if (!(ctx.parentCtx instanceof ChatParser.LineContext)) {
@@ -75,9 +72,5 @@ export default class HtmlChatListener extends ChatListener {
             this.Res.write(text);
             this.Res.write("</p>");
         }
-
-        const outputPath = path.join(__dirname, 'output.txt');
-        fs.writeFileSync(outputPath, text, { encoding: 'utf8' });
-        console.log(`Text written to ${outputPath}`);
     }
 }
