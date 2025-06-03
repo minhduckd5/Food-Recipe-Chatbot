@@ -3,8 +3,8 @@ import { mkdirSync, existsSync } from 'fs';
 import path from 'path';
 
 // Define paths
-const antlrJar = path.resolve('src/Python/Chat/libs/antlr-4.13.2-complete.jar');
-const grammarFile = path.resolve('src/Python/Chat/Chat.g4');
+const antlrJar = path.resolve('src/JavaScript/Chat/libs/antlr-4.13.2-complete.jar');
+const grammarFile = path.resolve('src/JavaScript/Chat/Chat.g4');
 const outputDir = path.resolve('CompiledFile');
 
 // Ensure output directory exists
@@ -16,7 +16,7 @@ if (!existsSync(outputDir)) {
 const command = 'java';
 const args = [
     '-jar', antlrJar,
-    '-Dlanguage=JavaScript', // <<< Changed from Python3 to JavaScript
+    '-Dlanguage=JavaScript',
     '-o', outputDir,
     grammarFile
 ];

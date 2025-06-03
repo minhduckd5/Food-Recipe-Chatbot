@@ -1,4 +1,4 @@
-// Generated from c:/Users/LENOVO/Documents/GitHub/Food-Recipe-Chatbot/src/Python/Chat/Chat.g4 by ANTLR 4.13.2
+// Generated from C:/Users/LENOVO/Documents/GitHub/Food-Recipe-Chatbot/src/JavaScript/Chat/Chat.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 import ChatListener from './ChatListener.js';

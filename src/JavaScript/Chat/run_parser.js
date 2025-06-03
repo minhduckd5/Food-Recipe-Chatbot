@@ -15,7 +15,6 @@ const parser = new ChatParser(tokenStream);
 // Set the entry point based on your grammar
 const tree = parser.chat(); // 'chat' should be the rule name
 
-// Convert the parse tree to string (like Python's toStringTree)
 const result = tree.toStringTree(parser.ruleNames);
 
 // Ensure output folder exists
