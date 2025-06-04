@@ -53,6 +53,51 @@ class ChatListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ChatParser#suggest_recipe.
+    def enterSuggest_recipe(self, ctx:ChatParser.Suggest_recipeContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#suggest_recipe.
+    def exitSuggest_recipe(self, ctx:ChatParser.Suggest_recipeContext):
+        pass
+
+
+    # Enter a parse tree produced by ChatParser#dietary_restriction.
+    def enterDietary_restriction(self, ctx:ChatParser.Dietary_restrictionContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#dietary_restriction.
+    def exitDietary_restriction(self, ctx:ChatParser.Dietary_restrictionContext):
+        pass
+
+
+    # Enter a parse tree produced by ChatParser#cooking_time.
+    def enterCooking_time(self, ctx:ChatParser.Cooking_timeContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#cooking_time.
+    def exitCooking_time(self, ctx:ChatParser.Cooking_timeContext):
+        pass
+
+
+    # Enter a parse tree produced by ChatParser#substitution.
+    def enterSubstitution(self, ctx:ChatParser.SubstitutionContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#substitution.
+    def exitSubstitution(self, ctx:ChatParser.SubstitutionContext):
+        pass
+
+
+    # Enter a parse tree produced by ChatParser#cooking_tip.
+    def enterCooking_tip(self, ctx:ChatParser.Cooking_tipContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#cooking_tip.
+    def exitCooking_tip(self, ctx:ChatParser.Cooking_tipContext):
+        pass
+
+
     # Enter a parse tree produced by ChatParser#help.
     def enterHelp(self, ctx:ChatParser.HelpContext):
         pass
@@ -77,6 +122,15 @@ class ChatListener(ParseTreeListener):
 
     # Exit a parse tree produced by ChatParser#recipe_name.
     def exitRecipe_name(self, ctx:ChatParser.Recipe_nameContext):
+        pass
+
+
+    # Enter a parse tree produced by ChatParser#ingredient_name.
+    def enterIngredient_name(self, ctx:ChatParser.Ingredient_nameContext):
+        pass
+
+    # Exit a parse tree produced by ChatParser#ingredient_name.
+    def exitIngredient_name(self, ctx:ChatParser.Ingredient_nameContext):
         pass
 
 
