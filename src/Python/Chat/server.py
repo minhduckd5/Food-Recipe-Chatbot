@@ -1,11 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
 from antlr4 import *
 from CompiledFile.ChatLexer import ChatLexer
 from CompiledFile.ChatParser import ChatParser
 from CompiledFile.ChatListener import ChatListener
+import os
 
-app = Flask(__name__)
+app = Flask(__name__, 
+            static_folder='templates',
+            template_folder='templates')
 CORS(app)
 
 class RecipeChatListener(ChatListener):
@@ -34,6 +37,10 @@ class RecipeChatListener(ChatListener):
         
     def enterGreeting(self, ctx):
         self.response = "Hello! How can I help you with recipes today?"
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():

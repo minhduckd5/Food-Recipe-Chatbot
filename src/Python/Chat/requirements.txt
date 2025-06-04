@@ -1,3 +1,4 @@
-flask==2.0.1
-flask-cors==3.0.10
-antlr4-python3-runtime==4.13.1 
+flask==2.3.3
+flask-cors==4.0.0
+antlr4-python3-runtime==4.13.1
+werkzeug==2.3.7 
