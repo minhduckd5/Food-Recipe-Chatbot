@@ -1,11 +1,23 @@
 grammar Chat;
 
-chat: (line)+ ;
+chat: (command)+ ;
 
-line: NAME ':' MESSAGE;
+command: 
+    search_recipe
+    | get_ingredients
+    | get_instructions
+    | help
+    | greeting
+    ;
 
-NAME: [a-zA-Z]+;  // Matches words like Alice, Bob, etc.
+search_recipe: 'search' 'recipe' 'for' recipe_name;
+get_ingredients: 'show' 'ingredients' 'for' recipe_name;
+get_instructions: 'show' 'instructions' 'for' recipe_name;
+help: 'help';
+greeting: 'hello' | 'hi' | 'hey';
 
-MESSAGE: ~[:\n]+ ;  // Matches the message text after the colon, excluding the colon and newline
+recipe_name: WORD (SPACE WORD)*;
 
-WS: [ \t\n\r]+ -> skip;  // Skips whitespaces and newlines
+WORD: [a-zA-Z]+;
+SPACE: ' ';
+WS: [ \t\n\r]+ -> skip;
