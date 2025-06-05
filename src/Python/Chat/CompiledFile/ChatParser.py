@@ -10,66 +10,85 @@ else:
 
 def serializedATN():
     return [
-        4,1,81,164,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,80,207,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,1,0,4,0,36,8,0,11,0,12,0,37,1,1,1,
         1,1,1,3,1,43,8,1,1,1,1,1,1,1,1,1,5,1,49,8,1,10,1,12,1,52,9,1,1,1,
         1,1,1,1,3,1,57,8,1,1,1,1,1,1,1,1,1,5,1,63,8,1,10,1,12,1,66,9,1,1,
         1,3,1,69,8,1,3,1,71,8,1,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,3,2,81,8,
-        2,1,3,1,3,1,4,1,4,3,4,87,8,4,1,4,3,4,90,8,4,1,4,1,4,1,5,1,5,3,5,
-        96,8,5,1,5,3,5,99,8,5,1,5,1,5,1,6,1,6,1,6,1,7,1,7,3,7,108,8,7,1,
-        7,3,7,111,8,7,1,7,3,7,114,8,7,1,8,1,8,3,8,118,8,8,1,8,1,8,1,8,1,
-        9,1,9,3,9,125,8,9,1,9,1,9,1,10,1,10,1,10,1,11,1,11,3,11,134,8,11,
-        1,11,1,11,3,11,138,8,11,1,12,1,12,1,13,1,13,1,14,1,14,3,14,146,8,
-        14,1,15,1,15,1,15,5,15,151,8,15,10,15,12,15,154,9,15,1,16,1,16,1,
-        16,5,16,159,8,16,10,16,12,16,162,9,16,1,16,0,0,17,0,2,4,6,8,10,12,
-        14,16,18,20,22,24,26,28,30,32,0,19,1,0,1,5,1,0,6,11,1,0,13,15,2,
-        0,8,8,16,18,2,0,13,13,20,21,2,0,8,8,22,31,2,0,10,10,32,34,2,0,14,
-        14,35,35,2,0,7,8,32,32,2,0,13,14,36,36,1,0,37,41,2,0,13,13,42,42,
-        1,0,43,47,1,0,48,53,2,0,13,13,15,15,1,0,54,58,1,0,59,65,1,0,66,73,
-        1,0,74,76,178,0,35,1,0,0,0,2,70,1,0,0,0,4,80,1,0,0,0,6,82,1,0,0,
-        0,8,84,1,0,0,0,10,93,1,0,0,0,12,102,1,0,0,0,14,105,1,0,0,0,16,115,
-        1,0,0,0,18,122,1,0,0,0,20,128,1,0,0,0,22,131,1,0,0,0,24,139,1,0,
-        0,0,26,141,1,0,0,0,28,143,1,0,0,0,30,147,1,0,0,0,32,155,1,0,0,0,
-        34,36,3,2,1,0,35,34,1,0,0,0,36,37,1,0,0,0,37,35,1,0,0,0,37,38,1,
-        0,0,0,38,1,1,0,0,0,39,43,3,26,13,0,40,43,3,24,12,0,41,43,3,28,14,
-        0,42,39,1,0,0,0,42,40,1,0,0,0,42,41,1,0,0,0,43,71,1,0,0,0,44,50,
-        3,4,2,0,45,46,3,6,3,0,46,47,3,4,2,0,47,49,1,0,0,0,48,45,1,0,0,0,
-        49,52,1,0,0,0,50,48,1,0,0,0,50,51,1,0,0,0,51,71,1,0,0,0,52,50,1,
-        0,0,0,53,57,3,26,13,0,54,57,3,24,12,0,55,57,3,28,14,0,56,53,1,0,
-        0,0,56,54,1,0,0,0,56,55,1,0,0,0,57,58,1,0,0,0,58,64,3,4,2,0,59,60,
-        3,6,3,0,60,61,3,4,2,0,61,63,1,0,0,0,62,59,1,0,0,0,63,66,1,0,0,0,
-        64,62,1,0,0,0,64,65,1,0,0,0,65,68,1,0,0,0,66,64,1,0,0,0,67,69,5,
-        80,0,0,68,67,1,0,0,0,68,69,1,0,0,0,69,71,1,0,0,0,70,42,1,0,0,0,70,
-        44,1,0,0,0,70,56,1,0,0,0,71,3,1,0,0,0,72,81,3,8,4,0,73,81,3,10,5,
-        0,74,81,3,12,6,0,75,81,3,14,7,0,76,81,3,16,8,0,77,81,3,18,9,0,78,
-        81,3,20,10,0,79,81,3,22,11,0,80,72,1,0,0,0,80,73,1,0,0,0,80,74,1,
-        0,0,0,80,75,1,0,0,0,80,76,1,0,0,0,80,77,1,0,0,0,80,78,1,0,0,0,80,
-        79,1,0,0,0,81,5,1,0,0,0,82,83,7,0,0,0,83,7,1,0,0,0,84,86,7,1,0,0,
-        85,87,5,12,0,0,86,85,1,0,0,0,86,87,1,0,0,0,87,89,1,0,0,0,88,90,7,
-        2,0,0,89,88,1,0,0,0,89,90,1,0,0,0,90,91,1,0,0,0,91,92,3,30,15,0,
-        92,9,1,0,0,0,93,95,7,3,0,0,94,96,5,19,0,0,95,94,1,0,0,0,95,96,1,
-        0,0,0,96,98,1,0,0,0,97,99,7,4,0,0,98,97,1,0,0,0,98,99,1,0,0,0,99,
-        100,1,0,0,0,100,101,3,30,15,0,101,11,1,0,0,0,102,103,7,5,0,0,103,
-        104,3,30,15,0,104,13,1,0,0,0,105,107,7,6,0,0,106,108,5,12,0,0,107,
-        106,1,0,0,0,107,108,1,0,0,0,108,110,1,0,0,0,109,111,7,7,0,0,110,
-        109,1,0,0,0,110,111,1,0,0,0,111,113,1,0,0,0,112,114,3,32,16,0,113,
-        112,1,0,0,0,113,114,1,0,0,0,114,15,1,0,0,0,115,117,7,8,0,0,116,118,
-        5,12,0,0,117,116,1,0,0,0,117,118,1,0,0,0,118,119,1,0,0,0,119,120,
-        7,9,0,0,120,121,5,77,0,0,121,17,1,0,0,0,122,124,7,10,0,0,123,125,
-        7,11,0,0,124,123,1,0,0,0,124,125,1,0,0,0,125,126,1,0,0,0,126,127,
-        3,30,15,0,127,19,1,0,0,0,128,129,7,12,0,0,129,130,3,32,16,0,130,
-        21,1,0,0,0,131,133,7,13,0,0,132,134,7,14,0,0,133,132,1,0,0,0,133,
-        134,1,0,0,0,134,137,1,0,0,0,135,138,3,30,15,0,136,138,3,32,16,0,
-        137,135,1,0,0,0,137,136,1,0,0,0,137,138,1,0,0,0,138,23,1,0,0,0,139,
-        140,7,15,0,0,140,25,1,0,0,0,141,142,7,16,0,0,142,27,1,0,0,0,143,
-        145,7,17,0,0,144,146,7,18,0,0,145,144,1,0,0,0,145,146,1,0,0,0,146,
-        29,1,0,0,0,147,152,5,78,0,0,148,149,5,79,0,0,149,151,5,78,0,0,150,
-        148,1,0,0,0,151,154,1,0,0,0,152,150,1,0,0,0,152,153,1,0,0,0,153,
-        31,1,0,0,0,154,152,1,0,0,0,155,160,5,78,0,0,156,157,5,79,0,0,157,
-        159,5,78,0,0,158,156,1,0,0,0,159,162,1,0,0,0,160,158,1,0,0,0,160,
-        161,1,0,0,0,161,33,1,0,0,0,162,160,1,0,0,0,22,37,42,50,56,64,68,
-        70,80,86,89,95,98,107,110,113,117,124,133,137,145,152,160
+        2,1,3,1,3,1,4,1,4,1,4,3,4,88,8,4,1,4,3,4,91,8,4,1,4,3,4,94,8,4,1,
+        4,3,4,97,8,4,1,4,1,4,1,5,1,5,1,5,3,5,104,8,5,1,5,3,5,107,8,5,1,5,
+        3,5,110,8,5,1,5,3,5,113,8,5,1,5,1,5,1,6,1,6,1,6,1,6,1,7,1,7,3,7,
+        123,8,7,1,7,3,7,126,8,7,1,7,3,7,129,8,7,1,7,3,7,132,8,7,1,7,3,7,
+        135,8,7,1,7,3,7,138,8,7,1,8,1,8,1,8,3,8,143,8,8,1,8,3,8,146,8,8,
+        1,8,1,8,3,8,150,8,8,1,8,1,8,1,9,1,9,1,9,3,9,157,8,9,1,9,3,9,160,
+        8,9,1,9,1,9,1,10,1,10,1,10,1,10,1,11,1,11,3,11,170,8,11,1,11,3,11,
+        173,8,11,1,11,3,11,176,8,11,1,11,1,11,3,11,180,8,11,1,12,1,12,1,
+        13,1,13,1,14,1,14,1,14,3,14,189,8,14,1,15,1,15,1,15,5,15,194,8,15,
+        10,15,12,15,197,9,15,1,16,1,16,1,16,5,16,202,8,16,10,16,12,16,205,
+        9,16,1,16,0,0,17,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,0,
+        19,1,0,1,5,1,0,6,11,1,0,13,15,2,0,8,8,16,18,2,0,13,13,20,21,2,0,
+        8,8,22,31,2,0,10,10,32,34,2,0,14,14,35,35,2,0,7,8,32,32,2,0,13,14,
+        36,36,1,0,37,41,2,0,13,13,42,42,1,0,43,47,1,0,48,53,2,0,13,13,15,
+        15,1,0,54,58,1,0,59,65,3,0,22,22,56,56,66,72,1,0,73,75,233,0,35,
+        1,0,0,0,2,70,1,0,0,0,4,80,1,0,0,0,6,82,1,0,0,0,8,84,1,0,0,0,10,100,
+        1,0,0,0,12,116,1,0,0,0,14,120,1,0,0,0,16,139,1,0,0,0,18,153,1,0,
+        0,0,20,163,1,0,0,0,22,167,1,0,0,0,24,181,1,0,0,0,26,183,1,0,0,0,
+        28,185,1,0,0,0,30,190,1,0,0,0,32,198,1,0,0,0,34,36,3,2,1,0,35,34,
+        1,0,0,0,36,37,1,0,0,0,37,35,1,0,0,0,37,38,1,0,0,0,38,1,1,0,0,0,39,
+        43,3,26,13,0,40,43,3,24,12,0,41,43,3,28,14,0,42,39,1,0,0,0,42,40,
+        1,0,0,0,42,41,1,0,0,0,43,71,1,0,0,0,44,50,3,4,2,0,45,46,3,6,3,0,
+        46,47,3,4,2,0,47,49,1,0,0,0,48,45,1,0,0,0,49,52,1,0,0,0,50,48,1,
+        0,0,0,50,51,1,0,0,0,51,71,1,0,0,0,52,50,1,0,0,0,53,57,3,26,13,0,
+        54,57,3,24,12,0,55,57,3,28,14,0,56,53,1,0,0,0,56,54,1,0,0,0,56,55,
+        1,0,0,0,57,58,1,0,0,0,58,64,3,4,2,0,59,60,3,6,3,0,60,61,3,4,2,0,
+        61,63,1,0,0,0,62,59,1,0,0,0,63,66,1,0,0,0,64,62,1,0,0,0,64,65,1,
+        0,0,0,65,68,1,0,0,0,66,64,1,0,0,0,67,69,5,79,0,0,68,67,1,0,0,0,68,
+        69,1,0,0,0,69,71,1,0,0,0,70,42,1,0,0,0,70,44,1,0,0,0,70,56,1,0,0,
+        0,71,3,1,0,0,0,72,81,3,8,4,0,73,81,3,10,5,0,74,81,3,12,6,0,75,81,
+        3,14,7,0,76,81,3,16,8,0,77,81,3,18,9,0,78,81,3,20,10,0,79,81,3,22,
+        11,0,80,72,1,0,0,0,80,73,1,0,0,0,80,74,1,0,0,0,80,75,1,0,0,0,80,
+        76,1,0,0,0,80,77,1,0,0,0,80,78,1,0,0,0,80,79,1,0,0,0,81,5,1,0,0,
+        0,82,83,7,0,0,0,83,7,1,0,0,0,84,85,7,1,0,0,85,87,5,78,0,0,86,88,
+        5,12,0,0,87,86,1,0,0,0,87,88,1,0,0,0,88,90,1,0,0,0,89,91,5,78,0,
+        0,90,89,1,0,0,0,90,91,1,0,0,0,91,93,1,0,0,0,92,94,7,2,0,0,93,92,
+        1,0,0,0,93,94,1,0,0,0,94,96,1,0,0,0,95,97,5,78,0,0,96,95,1,0,0,0,
+        96,97,1,0,0,0,97,98,1,0,0,0,98,99,3,30,15,0,99,9,1,0,0,0,100,101,
+        7,3,0,0,101,103,5,78,0,0,102,104,5,19,0,0,103,102,1,0,0,0,103,104,
+        1,0,0,0,104,106,1,0,0,0,105,107,5,78,0,0,106,105,1,0,0,0,106,107,
+        1,0,0,0,107,109,1,0,0,0,108,110,7,4,0,0,109,108,1,0,0,0,109,110,
+        1,0,0,0,110,112,1,0,0,0,111,113,5,78,0,0,112,111,1,0,0,0,112,113,
+        1,0,0,0,113,114,1,0,0,0,114,115,3,30,15,0,115,11,1,0,0,0,116,117,
+        7,5,0,0,117,118,5,78,0,0,118,119,3,30,15,0,119,13,1,0,0,0,120,122,
+        7,6,0,0,121,123,5,78,0,0,122,121,1,0,0,0,122,123,1,0,0,0,123,125,
+        1,0,0,0,124,126,5,12,0,0,125,124,1,0,0,0,125,126,1,0,0,0,126,128,
+        1,0,0,0,127,129,5,78,0,0,128,127,1,0,0,0,128,129,1,0,0,0,129,131,
+        1,0,0,0,130,132,7,7,0,0,131,130,1,0,0,0,131,132,1,0,0,0,132,134,
+        1,0,0,0,133,135,5,78,0,0,134,133,1,0,0,0,134,135,1,0,0,0,135,137,
+        1,0,0,0,136,138,3,32,16,0,137,136,1,0,0,0,137,138,1,0,0,0,138,15,
+        1,0,0,0,139,140,7,8,0,0,140,142,5,78,0,0,141,143,5,12,0,0,142,141,
+        1,0,0,0,142,143,1,0,0,0,143,145,1,0,0,0,144,146,5,78,0,0,145,144,
+        1,0,0,0,145,146,1,0,0,0,146,147,1,0,0,0,147,149,7,9,0,0,148,150,
+        5,78,0,0,149,148,1,0,0,0,149,150,1,0,0,0,150,151,1,0,0,0,151,152,
+        5,76,0,0,152,17,1,0,0,0,153,154,7,10,0,0,154,156,5,78,0,0,155,157,
+        7,11,0,0,156,155,1,0,0,0,156,157,1,0,0,0,157,159,1,0,0,0,158,160,
+        5,78,0,0,159,158,1,0,0,0,159,160,1,0,0,0,160,161,1,0,0,0,161,162,
+        3,30,15,0,162,19,1,0,0,0,163,164,7,12,0,0,164,165,5,78,0,0,165,166,
+        3,32,16,0,166,21,1,0,0,0,167,169,7,13,0,0,168,170,5,78,0,0,169,168,
+        1,0,0,0,169,170,1,0,0,0,170,172,1,0,0,0,171,173,7,14,0,0,172,171,
+        1,0,0,0,172,173,1,0,0,0,173,175,1,0,0,0,174,176,5,78,0,0,175,174,
+        1,0,0,0,175,176,1,0,0,0,176,179,1,0,0,0,177,180,3,30,15,0,178,180,
+        3,32,16,0,179,177,1,0,0,0,179,178,1,0,0,0,179,180,1,0,0,0,180,23,
+        1,0,0,0,181,182,7,15,0,0,182,25,1,0,0,0,183,184,7,16,0,0,184,27,
+        1,0,0,0,185,186,7,17,0,0,186,188,5,78,0,0,187,189,7,18,0,0,188,187,
+        1,0,0,0,188,189,1,0,0,0,189,29,1,0,0,0,190,195,5,77,0,0,191,192,
+        5,78,0,0,192,194,5,77,0,0,193,191,1,0,0,0,194,197,1,0,0,0,195,193,
+        1,0,0,0,195,196,1,0,0,0,196,31,1,0,0,0,197,195,1,0,0,0,198,203,5,
+        77,0,0,199,200,5,78,0,0,200,202,5,77,0,0,201,199,1,0,0,0,202,205,
+        1,0,0,0,203,201,1,0,0,0,203,204,1,0,0,0,204,33,1,0,0,0,205,203,1,
+        0,0,0,34,37,42,50,56,64,68,70,80,87,90,93,96,103,106,109,112,122,
+        125,128,131,134,137,142,145,149,156,159,169,172,175,179,188,195,
+        203
     ]
 
 class ChatParser ( Parser ):
@@ -101,9 +120,8 @@ class ChatParser ( Parser ):
                      "'good morning'", "'good afternoon'", "'good evening'", 
                      "'what recipes'", "'show recipes'", "'list recipes'", 
                      "'what dishes'", "'show dishes'", "'list dishes'", 
-                     "'what can you cook'", "'what do you know how to make'", 
-                     "'do you have'", "'are available'", "'can you make'", 
-                     "<INVALID>", "<INVALID>", "' '" ]
+                     "'what can you cook'", "'do you have'", "'are available'", 
+                     "'can you make'", "<INVALID>", "<INVALID>", "' '" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
@@ -124,7 +142,7 @@ class ChatParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "DIET", "WORD", "SPACE", "PUNCT", "WS" ]
+                      "DIET", "WORD", "SPACE", "PUNCT", "WS" ]
 
     RULE_chat = 0
     RULE_sentence = 1
@@ -226,12 +244,11 @@ class ChatParser ( Parser ):
     T__72=73
     T__73=74
     T__74=75
-    T__75=76
-    DIET=77
-    WORD=78
-    SPACE=79
-    PUNCT=80
-    WS=81
+    DIET=76
+    WORD=77
+    SPACE=78
+    PUNCT=79
+    WS=80
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -286,7 +303,7 @@ class ChatParser ( Parser ):
                 self.state = 37 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & -4501129457728) != 0) or ((((_la - 64)) & ~0x3f) == 0 and ((1 << (_la - 64)) & 1023) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & -4501129457728) != 0) or ((((_la - 64)) & ~0x3f) == 0 and ((1 << (_la - 64)) & 511) != 0)):
                     break
 
         except RecognitionException as re:
@@ -361,21 +378,22 @@ class ChatParser ( Parser ):
                 self.enterOuterAlt(localctx, 1)
                 self.state = 42
                 self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [59, 60, 61, 62, 63, 64, 65]:
+                la_ = self._interp.adaptivePredict(self._input,1,self._ctx)
+                if la_ == 1:
                     self.state = 39
                     self.greeting()
                     pass
-                elif token in [54, 55, 56, 57, 58]:
+
+                elif la_ == 2:
                     self.state = 40
                     self.help_()
                     pass
-                elif token in [66, 67, 68, 69, 70, 71, 72, 73]:
+
+                elif la_ == 3:
                     self.state = 41
                     self.show_available()
                     pass
-                else:
-                    raise NoViableAltException(self)
+
 
                 pass
 
@@ -401,21 +419,22 @@ class ChatParser ( Parser ):
                 self.enterOuterAlt(localctx, 3)
                 self.state = 56
                 self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [59, 60, 61, 62, 63, 64, 65]:
+                la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
+                if la_ == 1:
                     self.state = 53
                     self.greeting()
                     pass
-                elif token in [54, 55, 56, 57, 58]:
+
+                elif la_ == 2:
                     self.state = 54
                     self.help_()
                     pass
-                elif token in [66, 67, 68, 69, 70, 71, 72, 73]:
+
+                elif la_ == 3:
                     self.state = 55
                     self.show_available()
                     pass
-                else:
-                    raise NoViableAltException(self)
+
 
                 self.state = 58
                 self.command()
@@ -434,7 +453,7 @@ class ChatParser ( Parser ):
                 self.state = 68
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==80:
+                if _la==79:
                     self.state = 67
                     self.match(ChatParser.PUNCT)
 
@@ -622,6 +641,12 @@ class ChatParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
+
         def recipe_name(self):
             return self.getTypedRuleContext(ChatParser.Recipe_nameContext,0)
 
@@ -654,19 +679,29 @@ class ChatParser ( Parser ):
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 86
+            self.state = 85
+            self.match(ChatParser.SPACE)
+            self.state = 87
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==12:
-                self.state = 85
+                self.state = 86
                 self.match(ChatParser.T__11)
 
 
-            self.state = 89
+            self.state = 90
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,9,self._ctx)
+            if la_ == 1:
+                self.state = 89
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 93
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 57344) != 0):
-                self.state = 88
+                self.state = 92
                 _la = self._input.LA(1)
                 if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 57344) != 0)):
                     self._errHandler.recoverInline(self)
@@ -675,7 +710,15 @@ class ChatParser ( Parser ):
                     self.consume()
 
 
-            self.state = 91
+            self.state = 96
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 95
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 98
             self.recipe_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -692,6 +735,12 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
 
         def recipe_name(self):
             return self.getTypedRuleContext(ChatParser.Recipe_nameContext,0)
@@ -718,26 +767,36 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93
+            self.state = 100
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 459008) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 95
+            self.state = 101
+            self.match(ChatParser.SPACE)
+            self.state = 103
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==19:
-                self.state = 94
+                self.state = 102
                 self.match(ChatParser.T__18)
 
 
-            self.state = 98
+            self.state = 106
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
+            if la_ == 1:
+                self.state = 105
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 109
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 3153920) != 0):
-                self.state = 97
+                self.state = 108
                 _la = self._input.LA(1)
                 if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 3153920) != 0)):
                     self._errHandler.recoverInline(self)
@@ -746,7 +805,15 @@ class ChatParser ( Parser ):
                     self.consume()
 
 
-            self.state = 100
+            self.state = 112
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 111
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 114
             self.recipe_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -763,6 +830,9 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self):
+            return self.getToken(ChatParser.SPACE, 0)
 
         def recipe_name(self):
             return self.getTypedRuleContext(ChatParser.Recipe_nameContext,0)
@@ -789,14 +859,16 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 102
+            self.state = 116
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4290773248) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 103
+            self.state = 117
+            self.match(ChatParser.SPACE)
+            self.state = 118
             self.recipe_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -813,6 +885,12 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
 
         def ingredient_name(self):
             return self.getTypedRuleContext(ChatParser.Ingredient_nameContext,0)
@@ -839,26 +917,42 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 105
+            self.state = 120
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 30064772096) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 107
+            self.state = 122
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
+            if la_ == 1:
+                self.state = 121
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 125
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==12:
-                self.state = 106
+                self.state = 124
                 self.match(ChatParser.T__11)
 
 
-            self.state = 110
+            self.state = 128
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
+            if la_ == 1:
+                self.state = 127
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 131
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==14 or _la==35:
-                self.state = 109
+                self.state = 130
                 _la = self._input.LA(1)
                 if not(_la==14 or _la==35):
                     self._errHandler.recoverInline(self)
@@ -867,11 +961,19 @@ class ChatParser ( Parser ):
                     self.consume()
 
 
-            self.state = 113
+            self.state = 134
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==78:
-                self.state = 112
+                self.state = 133
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 137
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==77:
+                self.state = 136
                 self.ingredient_name()
 
 
@@ -890,6 +992,12 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
 
         def DIET(self):
             return self.getToken(ChatParser.DIET, 0)
@@ -915,29 +1023,47 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 115
+            self.state = 139
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4294967680) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 117
+            self.state = 140
+            self.match(ChatParser.SPACE)
+            self.state = 142
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==12:
-                self.state = 116
+                self.state = 141
                 self.match(ChatParser.T__11)
 
 
-            self.state = 119
+            self.state = 145
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 144
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 147
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 68719501312) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 120
+            self.state = 149
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 148
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 151
             self.match(ChatParser.DIET)
         except RecognitionException as re:
             localctx.exception = re
@@ -954,6 +1080,12 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
 
         def recipe_name(self):
             return self.getTypedRuleContext(ChatParser.Recipe_nameContext,0)
@@ -980,18 +1112,20 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 122
+            self.state = 153
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4260607557632) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 124
+            self.state = 154
+            self.match(ChatParser.SPACE)
+            self.state = 156
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==13 or _la==42:
-                self.state = 123
+                self.state = 155
                 _la = self._input.LA(1)
                 if not(_la==13 or _la==42):
                     self._errHandler.recoverInline(self)
@@ -1000,7 +1134,15 @@ class ChatParser ( Parser ):
                     self.consume()
 
 
-            self.state = 126
+            self.state = 159
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 158
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 161
             self.recipe_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -1017,6 +1159,9 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self):
+            return self.getToken(ChatParser.SPACE, 0)
 
         def ingredient_name(self):
             return self.getTypedRuleContext(ChatParser.Ingredient_nameContext,0)
@@ -1043,14 +1188,16 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
+            self.state = 163
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 272678883688448) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 129
+            self.state = 164
+            self.match(ChatParser.SPACE)
+            self.state = 165
             self.ingredient_name()
         except RecognitionException as re:
             localctx.exception = re
@@ -1067,6 +1214,12 @@ class ChatParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SPACE(self, i:int=None):
+            if i is None:
+                return self.getTokens(ChatParser.SPACE)
+            else:
+                return self.getToken(ChatParser.SPACE, i)
 
         def recipe_name(self):
             return self.getTypedRuleContext(ChatParser.Recipe_nameContext,0)
@@ -1097,18 +1250,26 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 131
+            self.state = 167
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 17732923532771328) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 133
+            self.state = 169
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,27,self._ctx)
+            if la_ == 1:
+                self.state = 168
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 172
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==13 or _la==15:
-                self.state = 132
+                self.state = 171
                 _la = self._input.LA(1)
                 if not(_la==13 or _la==15):
                     self._errHandler.recoverInline(self)
@@ -1117,15 +1278,23 @@ class ChatParser ( Parser ):
                     self.consume()
 
 
-            self.state = 137
+            self.state = 175
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
+            _la = self._input.LA(1)
+            if _la==78:
+                self.state = 174
+                self.match(ChatParser.SPACE)
+
+
+            self.state = 179
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,30,self._ctx)
             if la_ == 1:
-                self.state = 135
+                self.state = 177
                 self.recipe_name()
 
             elif la_ == 2:
-                self.state = 136
+                self.state = 178
                 self.ingredient_name()
 
 
@@ -1167,7 +1336,7 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 139
+            self.state = 181
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 558446353793941504) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1212,7 +1381,7 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 141
+            self.state = 183
             _la = self._input.LA(1)
             if not(((((_la - 59)) & ~0x3f) == 0 and ((1 << (_la - 59)) & 127) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1235,6 +1404,8 @@ class ChatParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def SPACE(self):
+            return self.getToken(ChatParser.SPACE, 0)
 
         def getRuleIndex(self):
             return ChatParser.RULE_show_available
@@ -1257,20 +1428,22 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 143
+            self.state = 185
             _la = self._input.LA(1)
-            if not(((((_la - 66)) & ~0x3f) == 0 and ((1 << (_la - 66)) & 255) != 0)):
+            if not(((((_la - 22)) & ~0x3f) == 0 and ((1 << (_la - 22)) & 2234224807510017) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 145
+            self.state = 186
+            self.match(ChatParser.SPACE)
+            self.state = 188
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((((_la - 74)) & ~0x3f) == 0 and ((1 << (_la - 74)) & 7) != 0):
-                self.state = 144
+            if ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 7) != 0):
+                self.state = 187
                 _la = self._input.LA(1)
-                if not(((((_la - 74)) & ~0x3f) == 0 and ((1 << (_la - 74)) & 7) != 0)):
+                if not(((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 7) != 0)):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
@@ -1326,17 +1499,17 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 147
+            self.state = 190
             self.match(ChatParser.WORD)
-            self.state = 152
+            self.state = 195
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==79:
-                self.state = 148
+            while _la==78:
+                self.state = 191
                 self.match(ChatParser.SPACE)
-                self.state = 149
+                self.state = 192
                 self.match(ChatParser.WORD)
-                self.state = 154
+                self.state = 197
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1389,17 +1562,17 @@ class ChatParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 155
+            self.state = 198
             self.match(ChatParser.WORD)
-            self.state = 160
+            self.state = 203
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==79:
-                self.state = 156
+            while _la==78:
+                self.state = 199
                 self.match(ChatParser.SPACE)
-                self.state = 157
+                self.state = 200
                 self.match(ChatParser.WORD)
-                self.state = 162
+                self.state = 205
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
