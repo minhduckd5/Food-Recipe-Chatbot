@@ -126,7 +126,7 @@ show_available: (
 		| 'what can you cook'
 		| 'what do you know' 
 		| 'how to make'
-	) SPACE ('do you have' | 'are available' | 'can you make')?;
+	) SPACE? ('do you have' | 'are available' | 'can you make')?;
 
 // Recipe and ingredient names can be multiple words
 recipe_name: WORD (SPACE WORD)*;
