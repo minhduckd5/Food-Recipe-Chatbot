@@ -17,30 +17,12 @@ class ChatListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by ChatParser#sentence.
-    def enterSentence(self, ctx:ChatParser.SentenceContext):
-        pass
-
-    # Exit a parse tree produced by ChatParser#sentence.
-    def exitSentence(self, ctx:ChatParser.SentenceContext):
-        pass
-
-
     # Enter a parse tree produced by ChatParser#command.
     def enterCommand(self, ctx:ChatParser.CommandContext):
         pass
 
     # Exit a parse tree produced by ChatParser#command.
     def exitCommand(self, ctx:ChatParser.CommandContext):
-        pass
-
-
-    # Enter a parse tree produced by ChatParser#conjunction.
-    def enterConjunction(self, ctx:ChatParser.ConjunctionContext):
-        pass
-
-    # Exit a parse tree produced by ChatParser#conjunction.
-    def exitConjunction(self, ctx:ChatParser.ConjunctionContext):
         pass
 
 

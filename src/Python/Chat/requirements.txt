@@ -1,5 +1,4 @@
-flask==2.3.3
+flask==2.2.5
 flask-cors==4.0.0
 antlr4-python3-runtime==4.13.1
-werkzeug==2.3.7
-ollama==0.1.6 
+werkzeug==2.2.3 
