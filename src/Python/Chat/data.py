@@ -339,22 +339,21 @@ RECIPES = {
         "dietary_info": ["vegetarian", "gluten-free"]
     },
     "avocado toast": {
-        "description": "A quick and nutritious breakfast with mashed avocado and optional toppings.",
+        "description": "Simple and nutritious toast topped with creamy mashed avocado.",
         "ingredients": [
-            "2 slices whole grain bread",
+            "2 slices of bread (gluten-free if needed)",
             "1 ripe avocado",
-            "1/2 lemon, juiced",
             "Salt and pepper to taste",
-            "Optional toppings: poached egg, red pepper flakes, tomato, feta"
+            "Lemon juice",
+            "Optional: red pepper flakes, olive oil"
         ],
         "instructions": [
-            "Toast bread slices",
-            "Mash avocado with lemon, salt, and pepper",
-            "Spread on toast",
-            "Add desired toppings"
+            "Toast the bread to your liking",
+            "Mash the avocado with salt, pepper, and lemon juice",
+            "Spread avocado on toast and top with optional ingredients"
         ],
         "cooking_time": "10 minutes",
-        "dietary_info": ["vegetarian"]
+        "dietary_info": ["vegan", "dairy-free"]
     },
     "mushroom risotto": {
         "description": "A creamy Italian rice dish with sautéed mushrooms and parmesan cheese.",
@@ -405,47 +404,40 @@ RECIPES = {
         "dietary_info": []
     },
     "lentil soup": {
-        "description": "A warm, hearty soup made with lentils, vegetables, and spices.",
+        "description": "Comforting soup made with protein-rich lentils and aromatic spices.",
         "ingredients": [
-            "1 cup lentils",
+            "1 cup dried lentils",
+            "1 carrot, diced",
+            "1 celery stalk, diced",
             "1 onion, chopped",
-            "2 carrots, chopped",
-            "2 celery stalks, chopped",
-            "3 cloves garlic, minced",
-            "1 can diced tomatoes",
             "4 cups vegetable broth",
-            "1 tsp cumin",
-            "1 tsp thyme",
-            "Salt and pepper to taste"
+            "Spices (cumin, thyme, pepper)"
         ],
         "instructions": [
-            "Sauté onion, garlic, carrots, and celery",
-            "Add tomatoes, lentils, broth, and spices",
-            "Simmer until lentils are soft (30–40 minutes)",
-            "Adjust seasoning and serve"
+            "Sauté vegetables until soft",
+            "Add lentils and broth, simmer until lentils are tender",
+            "Season to taste"
         ],
-        "cooking_time": "45 minutes",
+        "cooking_time": "35 minutes",
         "dietary_info": ["vegan", "gluten-free"]
     },
     "stuffed bell peppers": {
-        "description": "Bell peppers filled with a savory mixture of rice, vegetables, and cheese.",
+        "description": "Colorful bell peppers filled with a flavorful rice and veggie mix.",
         "ingredients": [
-            "4 bell peppers, tops removed and seeds cleaned",
+            "4 bell peppers, tops removed",
             "1 cup cooked rice",
-            "1 cup cooked beans or ground meat",
-            "1 cup tomato sauce",
-            "1 onion, diced",
-            "1 cup shredded cheese",
-            "Salt and pepper to taste"
+            "1/2 cup black beans",
+            "1/2 cup corn",
+            "1/4 cup diced tomatoes",
+            "Spices of choice"
         ],
         "instructions": [
-            "Preheat oven to 375°F (190°C)",
-            "Sauté onion and mix with rice, beans/meat, and sauce",
-            "Stuff mixture into peppers",
-            "Top with cheese and bake for 30 minutes"
+            "Mix rice, beans, corn, tomatoes, and spices",
+            "Stuff mixture into bell peppers",
+            "Bake at 375°F (190°C) for 25 minutes"
         ],
-        "cooking_time": "40 minutes",
-        "dietary_info": ["vegetarian", "gluten-free"]
+        "cooking_time": "35 minutes",
+        "dietary_info": ["vegan", "gluten-free"]
     },
     "falafel wrap": {
         "description": "Crispy falafels served in pita bread with fresh vegetables and tahini sauce.",
@@ -487,185 +479,123 @@ RECIPES = {
         "cooking_time": "15 minutes",
         "dietary_info": ["gluten-free", "dairy-free"]
     },
-    "avocado toast": {
-    "description": "Simple and nutritious toast topped with creamy mashed avocado.",
-    "ingredients": [
-        "2 slices of bread (gluten-free if needed)",
-        "1 ripe avocado",
-        "Salt and pepper to taste",
-        "Lemon juice",
-        "Optional: red pepper flakes, olive oil"
-    ],
-    "instructions": [
-        "Toast the bread to your liking",
-        "Mash the avocado with salt, pepper, and lemon juice",
-        "Spread avocado on toast and top with optional ingredients"
-    ],
-    "cooking_time": "10 minutes",
-    "dietary_info": ["vegan", "dairy-free"]
-},
-
-"oatmeal bowl": {
-    "description": "Warm, hearty oats topped with fruit and seeds for a balanced breakfast.",
-    "ingredients": [
-        "1/2 cup rolled oats",
-        "1 cup water or plant-based milk",
-        "1 banana, sliced",
-        "1 tbsp chia seeds",
-        "Berries for topping"
-    ],
-    "instructions": [
-        "Cook oats in liquid over medium heat until soft",
-        "Transfer to a bowl and top with banana, chia seeds, and berries"
-    ],
-    "cooking_time": "10 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"chickpea salad": {
-    "description": "A protein-packed, refreshing salad made with chickpeas and fresh veggies.",
-    "ingredients": [
-        "1 can chickpeas, rinsed",
-        "1 cucumber, diced",
-        "1 tomato, diced",
-        "1/4 red onion, chopped",
-        "2 tbsp olive oil",
-        "1 tbsp lemon juice",
-        "Salt and pepper to taste"
-    ],
-    "instructions": [
-        "Mix all ingredients in a large bowl",
-        "Chill before serving if desired"
-    ],
-    "cooking_time": "15 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"zucchini noodles": {
-    "description": "A light, low-carb noodle alternative made with spiralized zucchini.",
-    "ingredients": [
-        "2 zucchinis, spiralized",
-        "1 tbsp olive oil",
-        "1 garlic clove, minced",
-        "Salt and pepper to taste",
-        "Optional: cherry tomatoes, basil"
-    ],
-    "instructions": [
-        "Sauté garlic in olive oil",
-        "Add zucchini noodles and cook for 2–3 minutes",
-        "Season and add optional toppings"
-    ],
-    "cooking_time": "10 minutes",
-    "dietary_info": ["vegan", "gluten-free", "low-carb"]
-},
-
-"stuffed bell peppers": {
-    "description": "Colorful bell peppers filled with a flavorful rice and veggie mix.",
-    "ingredients": [
-        "4 bell peppers, tops removed",
-        "1 cup cooked rice",
-        "1/2 cup black beans",
-        "1/2 cup corn",
-        "1/4 cup diced tomatoes",
-        "Spices of choice"
-    ],
-    "instructions": [
-        "Mix rice, beans, corn, tomatoes, and spices",
-        "Stuff mixture into bell peppers",
-        "Bake at 375°F (190°C) for 25 minutes"
-    ],
-    "cooking_time": "35 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"quinoa stir-fry": {
-    "description": "A quick stir-fry using cooked quinoa and assorted vegetables.",
-    "ingredients": [
-        "1 cup cooked quinoa",
-        "1 cup mixed veggies (e.g., broccoli, carrots, bell pepper)",
-        "2 tbsp soy sauce or tamari",
-        "1 tbsp sesame oil",
-        "1 garlic clove, minced"
-    ],
-    "instructions": [
-        "Sauté garlic and vegetables in sesame oil",
-        "Add quinoa and soy sauce, stir-fry for 5 minutes"
-    ],
-    "cooking_time": "15 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"lentil soup": {
-    "description": "Comforting soup made with protein-rich lentils and aromatic spices.",
-    "ingredients": [
-        "1 cup dried lentils",
-        "1 carrot, diced",
-        "1 celery stalk, diced",
-        "1 onion, chopped",
-        "4 cups vegetable broth",
-        "Spices (cumin, thyme, pepper)"
-    ],
-    "instructions": [
-        "Sauté vegetables until soft",
-        "Add lentils and broth, simmer until lentils are tender",
-        "Season to taste"
-    ],
-    "cooking_time": "35 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"coconut chia pudding": {
-    "description": "A creamy, no-cook dessert or breakfast made with chia seeds and coconut milk.",
-    "ingredients": [
-        "1/4 cup chia seeds",
-        "1 cup coconut milk",
-        "1 tbsp maple syrup",
-        "1/2 tsp vanilla extract",
-        "Fresh fruit for topping"
-    ],
-    "instructions": [
-        "Mix chia seeds, coconut milk, syrup, and vanilla",
-        "Refrigerate for at least 4 hours or overnight",
-        "Stir and top with fruit before serving"
-    ],
-    "cooking_time": "5 minutes (plus chilling)",
-    "dietary_info": ["vegan", "gluten-free", "dairy-free"]
-},
-
-"baked sweet potato": {
-    "description": "Tender, naturally sweet potatoes baked and topped to your liking.",
-    "ingredients": [
-        "2 medium sweet potatoes",
-        "Olive oil",
-        "Salt",
-        "Optional toppings: avocado, black beans, tahini"
-    ],
-    "instructions": [
-        "Preheat oven to 400°F (200°C)",
-        "Pierce sweet potatoes and rub with oil and salt",
-        "Bake for 45 minutes or until tender",
-        "Add toppings and serve"
-    ],
-    "cooking_time": "50 minutes",
-    "dietary_info": ["vegan", "gluten-free"]
-},
-
-"fruit smoothie": {
-    "description": "A refreshing, nutrient-packed drink made with fresh or frozen fruit.",
-    "ingredients": [
-        "1 banana",
-        "1/2 cup berries",
-        "1/2 cup plant-based milk or juice",
-        "1 tbsp flaxseed (optional)",
-        "Ice cubes (optional)"
-    ],
-    "instructions": [
-        "Combine all ingredients in a blender",
-        "Blend until smooth and serve"
-    ],
-    "cooking_time": "5 minutes",
-    "dietary_info": ["vegan", "gluten-free", "dairy-free"]
-},
+    "oatmeal bowl": {
+        "description": "Warm, hearty oats topped with fruit and seeds for a balanced breakfast.",
+        "ingredients": [
+            "1/2 cup rolled oats",
+            "1 cup water or plant-based milk",
+            "1 banana, sliced",
+            "1 tbsp chia seeds",
+            "Berries for topping"
+        ],
+        "instructions": [
+            "Cook oats in liquid over medium heat until soft",
+            "Transfer to a bowl and top with banana, chia seeds, and berries"
+        ],
+        "cooking_time": "10 minutes",
+        "dietary_info": ["vegan", "gluten-free"]
+    },
+    "chickpea salad": {
+        "description": "A protein-packed, refreshing salad made with chickpeas and fresh veggies.",
+        "ingredients": [
+            "1 can chickpeas, rinsed",
+            "1 cucumber, diced",
+            "1 tomato, diced",
+            "1/4 red onion, chopped",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Mix all ingredients in a large bowl",
+            "Chill before serving if desired"
+        ],
+        "cooking_time": "15 minutes",
+        "dietary_info": ["vegan", "gluten-free"]
+    },
+    "zucchini noodles": {
+        "description": "A light, low-carb noodle alternative made with spiralized zucchini.",
+        "ingredients": [
+            "2 zucchinis, spiralized",
+            "1 tbsp olive oil",
+            "1 garlic clove, minced",
+            "Salt and pepper to taste",
+            "Optional: cherry tomatoes, basil"
+        ],
+        "instructions": [
+            "Sauté garlic in olive oil",
+            "Add zucchini noodles and cook for 2–3 minutes",
+            "Season and add optional toppings"
+        ],
+        "cooking_time": "10 minutes",
+        "dietary_info": ["vegan", "gluten-free", "low-carb"]
+    },
+    "quinoa stir-fry": {
+        "description": "A quick stir-fry using cooked quinoa and assorted vegetables.",
+        "ingredients": [
+            "1 cup cooked quinoa",
+            "1 cup mixed veggies (e.g., broccoli, carrots, bell pepper)",
+            "2 tbsp soy sauce or tamari",
+            "1 tbsp sesame oil",
+            "1 garlic clove, minced"
+        ],
+        "instructions": [
+            "Sauté garlic and vegetables in sesame oil",
+            "Add quinoa and soy sauce, stir-fry for 5 minutes"
+        ],
+        "cooking_time": "15 minutes",
+        "dietary_info": ["vegan", "gluten-free"]
+    },
+    "coconut chia pudding": {
+        "description": "A creamy, no-cook dessert or breakfast made with chia seeds and coconut milk.",
+        "ingredients": [
+            "1/4 cup chia seeds",
+            "1 cup coconut milk",
+            "1 tbsp maple syrup",
+            "1/2 tsp vanilla extract",
+            "Fresh fruit for topping"
+        ],
+        "instructions": [
+            "Mix chia seeds, coconut milk, syrup, and vanilla",
+            "Refrigerate for at least 4 hours or overnight",
+            "Stir and top with fruit before serving"
+        ],
+        "cooking_time": "5 minutes (plus chilling)",
+        "dietary_info": ["vegan", "gluten-free", "dairy-free"]
+    },
+    "baked sweet potato": {
+        "description": "Tender, naturally sweet potatoes baked and topped to your liking.",
+        "ingredients": [
+            "2 medium sweet potatoes",
+            "Olive oil",
+            "Salt",
+            "Optional toppings: avocado, black beans, tahini"
+        ],
+        "instructions": [
+            "Preheat oven to 400°F (200°C)",
+            "Pierce sweet potatoes and rub with oil and salt",
+            "Bake for 45 minutes or until tender",
+            "Add toppings and serve"
+        ],
+        "cooking_time": "50 minutes",
+        "dietary_info": ["vegan", "gluten-free"]
+    },
+    "fruit smoothie": {
+        "description": "A refreshing, nutrient-packed drink made with fresh or frozen fruit.",
+        "ingredients": [
+            "1 banana",
+            "1/2 cup berries",
+            "1/2 cup plant-based milk or juice",
+            "1 tbsp flaxseed (optional)",
+            "Ice cubes (optional)"
+        ],
+        "instructions": [
+            "Combine all ingredients in a blender",
+            "Blend until smooth and serve"
+        ],
+        "cooking_time": "5 minutes",
+        "dietary_info": ["vegan", "gluten-free", "dairy-free"]
+    },
        "Cauliflower Rice Stir-Fry":{
         "description": "A low-carb, grain-free stir-fry using cauliflower rice and assorted vegetables.",
         "ingredients": [
