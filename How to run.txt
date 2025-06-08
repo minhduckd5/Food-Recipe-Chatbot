@@ -1,4 +1,0 @@
-1. Navigate to Food-Recipe-Chatbot
-2. npm install
-3. Run node src/JavaScript/Chat/Antlr.js
-4. go to browser and input url http://localhost:1337/ to see result

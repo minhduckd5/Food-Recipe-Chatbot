@@ -1,1 +1,0 @@
-(chat (line (name john  ) (command SHOUTS :  ) (message hello   (mention @ michael)   (color / pink / (message this   will   work) /)   (emoticon : - ))  ) \n) <EOF>)

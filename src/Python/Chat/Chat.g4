@@ -145,6 +145,6 @@ DIET:
 
 // Basic tokens
 WORD: [a-zA-Z]+;
-SPACE: ' ';
+SPACE: ' ' | '-';
 PUNCT: '?' | '.' | '!';
 WS: [ \t\n\r]+ -> skip;

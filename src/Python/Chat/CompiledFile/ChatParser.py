@@ -122,7 +122,7 @@ class ChatParser ( Parser ):
                      "'what recipes'", "'show recipes'", "'list recipes'", 
                      "'what dishes'", "'show dishes'", "'list dishes'", 
                      "'what can you cook'", "'do you have'", "'are available'", 
-                     "'can you make'", "<INVALID>", "<INVALID>", "' '" ]
+                     "'can you make'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
