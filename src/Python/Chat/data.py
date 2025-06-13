@@ -49,7 +49,7 @@ RECIPES = {
         "cooking_time": "20 minutes",
         "dietary_info": ["vegetarian", "vegan (without Parmesan)"]
     },
-        "Beef Tacos":{
+    "beef tacos":{
         "description": "Savory Mexican-style beef tacos with seasoned ground beef and fresh toppings.",
         "ingredients": [
             "500g ground beef",
@@ -71,7 +71,7 @@ RECIPES = {
         "cooking_time": "25 minutes",
         "dietary_info": ["gluten-free (with corn tortillas)"]
     },
-        "Vegetable Stir-Fry":{
+    "vegetable stir-fry":{
         "description": "A quick and colorful Asian-inspired stir-fry with crisp vegetables and a savory sauce.",
         "ingredients": [
             "1 bell pepper, sliced",
@@ -95,7 +95,7 @@ RECIPES = {
         "cooking_time": "15 minutes",
         "dietary_info": ["vegan", "gluten-free (with tamari)"]
     },
-        "Baked Salmon with Lemon Herb Sauce":{
+    "baked salmon with lemon herb sauce":{
         "description": "Tender salmon fillets baked with a zesty lemon and herb sauce, perfect for a light dinner.",
         "ingredients": [
             "4 salmon fillets (150g each)",
@@ -117,7 +117,7 @@ RECIPES = {
         "cooking_time": "20 minutes",
         "dietary_info": ["gluten-free", "low-carb"]
     },
-        "Chickpea Curry":{
+    "chickpea curry":{
         "description": "A hearty and spicy vegan curry made with chickpeas and a rich tomato-based sauce.",
         "ingredients": [
             "400g canned chickpeas, drained",
@@ -263,7 +263,7 @@ RECIPES = {
         "cooking_time": "25 minutes",
         "dietary_info": ["vegetarian", "gluten-free"]
     },
-     "beef stew": {
+    "beef stew": {
         "description": "A hearty and comforting beef stew slow-cooked with vegetables and savory broth.",
         "ingredients": [
             "1kg beef chuck, cut into cubes",
@@ -596,7 +596,7 @@ RECIPES = {
         "cooking_time": "5 minutes",
         "dietary_info": ["vegan", "gluten-free", "dairy-free"]
     },
-       "Cauliflower Rice Stir-Fry":{
+    "cauliflower rice stir-fry":{
         "description": "A low-carb, grain-free stir-fry using cauliflower rice and assorted vegetables.",
         "ingredients": [
             "1 head cauliflower, grated into rice-sized pieces",
@@ -616,7 +616,7 @@ RECIPES = {
         "dietary_info": ["vegan", "gluten-free", "keto", "paleo", "low-carb", "dairy-free", "nut-free"]
     },
        
-        "Eggplant Lasagna Roll-Ups":{
+    "eggplant lasagna roll-ups":{
         "description": "Thinly sliced eggplant rolled with cashew cheese filling and baked in tomato sauce.",
         "ingredients": [
             "2 large eggplants, sliced lengthwise into thin strips",
@@ -635,7 +635,7 @@ RECIPES = {
         "cooking_time": "45 minutes",
         "dietary_info": ["vegan", "gluten-free", "paleo", "dairy-free"]
     },
-        "Chickpea Salad Sandwich": {
+    "chickpea salad sandwich": {
         "description": "A hearty sandwich filling made from mashed chickpeas and fresh vegetables.",
         "ingredients": [
             "1 can (400g) chickpeas, drained and mashed",
@@ -653,7 +653,7 @@ RECIPES = {
         "cooking_time": "10 minutes",
         "dietary_info": ["vegan", "gluten-free", "dairy-free", "nut-free"]
     },
-        "Zucchini Noodles with Avocado Sauce":{
+    "zucchini noodles with avocado sauce":{
         "description": "Spiralized zucchini tossed in a creamy avocado and basil sauce.",
         "ingredients": [
             "2 medium zucchinis, spiralized",
@@ -670,7 +670,7 @@ RECIPES = {
         "cooking_time": "15 minutes",
         "dietary_info": ["vegan", "gluten-free", "keto", "paleo", "low-carb", "dairy-free", "nut-free"]
     },
-        "Sweet Potato Gnocchi": {
+    "sweet potato gnocchi": {
         "description": "Soft, pillowy gnocchi made from sweet potatoes and almond flour.",
         "ingredients": [
             "1 cup mashed sweet potato",
@@ -689,7 +689,7 @@ RECIPES = {
         "cooking_time": "30 minutes",
         "dietary_info": ["vegetarian", "gluten-free", "paleo", "dairy-free"]
     },
-        "Roasted Cauliflower with Tahini Sauce":{
+    "roasted cauliflower with tahini sauce":{
         "description": "Oven-roasted cauliflower drizzled with a tangy tahini-lemon sauce.",
         "ingredients": [
             "1 head cauliflower, cut into florets",
@@ -710,7 +710,7 @@ RECIPES = {
         "cooking_time": "35 minutes",
         "dietary_info": ["vegan", "gluten-free", "paleo", "dairy-free", "nut-free"]
     },
-        "Vegan Walnut Chili":{
+    "vegan walnut chili":{
         "description": "A hearty chili made with walnuts and beans, packed with smoky flavor.",
         "ingredients": [
             "1 cup walnuts, finely chopped",
@@ -732,7 +732,7 @@ RECIPES = {
         "cooking_time": "40 minutes",
         "dietary_info": ["vegan", "gluten-free", "low-carb", "dairy-free"]
     },
-        "Cauliflower Mushroom Risotto":{
+    "cauliflower mushroom risotto":{
         "description": "A creamy, low-carb risotto made with cauliflower rice and mushrooms.",
         "ingredients": [
             "1 head cauliflower, grated into rice-sized pieces",
@@ -758,7 +758,7 @@ RECIPES = {
 # Ingredient substitutions
 SUBSTITUTIONS ={
     "milk": ["almond milk", "soy milk", "oat milk", "coconut milk", "rice milk", "hemp milk"],
-    "eggs": ["flax eggs", "chia eggs", "banana", "applesauce", "aquafaba", "commercial egg replacer"],
+    "egg": ["flax eggs", "chia eggs", "banana", "applesauce", "aquafaba", "commercial egg replacer"],
     "butter": ["olive oil", "coconut oil", "margarine", "avocado", "ghee (non-vegan)", "vegan butter"],
     "sugar": ["honey", "maple syrup", "stevia", "coconut sugar", "agave nectar", "monk fruit sweetener"],
     "flour": ["almond flour", "coconut flour", "rice flour", "gluten-free flour blend", "oat flour", "buckwheat flour", "tapioca flour"],
@@ -789,7 +789,7 @@ SUBSTITUTIONS ={
     "chocolate": ["cocoa powder with sweetener", "carob powder", "dark chocolate (vegan)", "cacao nibs"],
     "cauliflower": ["broccoli", "zucchini", "riced parsnips", "riced turnips"],
     "tahini": ["sunflower seed butter", "almond butter", "cashew butter", "sesame oil with water"],
-    "tomatoes": ["red bell peppers", "roasted eggplant puree", "beet puree", "carrot puree"],
+    "tomato": ["red bell peppers", "roasted eggplant puree", "beet puree", "carrot puree"],
     "onion": ["shallots", "leeks", "green onions", "onion powder"],
     "garlic": ["garlic powder", "shallots", "chives", "roasted garlic paste"],
     "celery": ["fennel", "green bell pepper", "carrots", "celery seed"],
